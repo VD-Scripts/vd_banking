@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    /* 
+    font-family: "Inter", sans-serif;
+    font-family: "Goldman", sans-serif; */
+    margin: 0;
+    padding: 0;
+    /* background:rgba(0, 0, 0, 0.850)url(https://wallpaperbat.com/img/24803-gta-wallpaper-top-free-gta-background.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    text-transform: uppercase;
+}
+
+.main-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2vh;
+    width: 43.125vw;
+    height: 50.48543689320388vh;
+    background:  linear-gradient(45deg, #00294F, #005EB5);
+
+    /* background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+}
+
+.logo{
+    display: flex;
+    gap:  1.5vh;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+
+.titlu{
+    font-weight: 200;
+    font-family: "Inter", sans-serif;
+    color: rgb(202, 202, 202);
+    font-size: 1.4vh;
+}
+
+.img-banca{
+    outline:  0.2vh solid rgb(214, 214, 214);
+    padding: 1.8vh 1.5vh 1.8vh 1.5vh;
+    border-radius: 1vh;
+    width: 4vh;
+}
+
+.esc-container{
+    font-family: "Inter", sans-serif;
+    display: flex;
+     gap: 1vh;
+     align-items: center;
+     position: absolute;
+     top: 15%;
+     left: 80%;
+     transform: translate(-50%, -50%);
+}
+
+.esc{
+    color: rgb(230, 230, 230);
+    outline:  0.2vh solid rgb(214, 214, 214);
+    padding: 0.6vh 1vh 0.6vh 1vh;
+    border-radius: 0.5vh;
+    font-size: 1.5vh;
+    font-weight: 500;
+}
+
+.p-esc{
+    color:  rgb(202, 202, 202);
+    font-size: 1vh;
+    width: 20vh;
+}
+
+.cont-container{
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.144), #66666657);
+    position: absolute;
+    top: 35%;
+    left: 21.9%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    outline:  0.2vh solid rgb(214, 214, 214);
+    gap: 11vh;
+    width: 13.75vw;
+    height: 6.903991370010788vh;
+    align-items: center;
+    border-radius: 1vh;
+}
+
+.img-profil{
+    width: 4vh;
+    height: 4vh;
+    margin-left: 1.5vh;
+    outline:  0.2vh solid rgb(214, 214, 214);
+    border-radius: 100%;
+}
+
+.welcome{
+    color:  rgb(202, 202, 202);
+    font-size: 1vh;
+    text-align: end;
+    font-weight: 300;
+}
+
+.balance-container{
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.144), #66666657);
+    position: absolute;
+    top: 52%;
+    left: 21.9%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    outline:  0.2vh solid rgb(214, 214, 214);
+    width: 13.75vw;
+    height: 6.903991370010788vh;
+    border-radius: 1vh;
+    align-items: center;
+    gap: 9vh;
+}
+.pig{
+    width: 4.5vh;
+    height: 4.5vh;
+}
+
+.bbbalance{
+    color: white;
+    margin-left: 1.5vh;
+}
+
+.titlu-balance{
+    font-weight: bold;
+    font-size: 1.8vh;
+}
+
+.balance-account{
+    color: rgb(202, 202, 202);
+    font-size: 1vh;
+}
+
+.card{
+    margin-top: 31.3vh;
+    margin-left: 5.1vh;
+}
+
+.name{
+    color:  rgb(202, 202, 202);
+    font-family: "Inter", sans-serif;
+    margin-top: -7vh;
+    margin-left: 6.7vh;
+    font-size: 1.2vh;
+}
+
+.withdraw-container{
+    width: 9.375vw;
+    height: 23.73247033441208vh;
+    outline:  0.2vh solid rgb(214, 214, 214);
+    position: absolute;
+    top: 52%;
+    left: 58.7%;
+    transform: translate(-50%, -50%);
+    border-radius: 1vh;
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(45deg, #73737359, #d9d9d93b);
+}
+
+.bigbos1{
+    display: flex;
+    align-items: center;
+    gap: 0.8vh;
+    justify-content: center;
+    margin-top: 2.5vh;
+    margin-left: -1vh;
+}
+
+.img-withdraw{
+    outline:  0.2vh solid rgb(214, 214, 214);
+    padding: 0.5vh 0.1vh 0.1vh 0.1vh;
+    border-radius: 0.5vh;
+}
+
+.titlu-withdraw{
+    color:  rgb(202, 202, 202);
+    font-size: 1vh;
+}
+
+.input1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.267);
+    height: 3.559870550161812vh;
+    width: 6.40625vw;
+    border-radius: 1vh;
+    color: white;
+    font-size: 1.2vh;
+}
+
+.input1:focus{
+    outline: 0.2vh solid white;
+}
+
+.btn-withdraw{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    text-align: center;
+    background: rgb(0, 183, 255);
+    height: 3.559870550161812vh;
+    width: 6.40625vw;
+    border-radius: 1vh;
+    color: white;
+    font-size: 1.5vh;
+    box-shadow: 0 1vh 1vh rgba(0, 0, 0, 0.267);
+    cursor:  pointer;
+    transition-duration: 300ms;
+    font-weight: bold;
+}
+
+.btn-withdraw:hover{
+    width: 7vw; 
+    transition-duration: 300ms;
+}
+
+.line1{
+    width: 2.8645833333333335vw;
+    height: 0.15vh;
+    background: white;
+    box-shadow: 0 -0.1vh 0.5vh white;
+    position: absolute;
+    top: -1.2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* =========================================================================== */
+
+
+.deposit-container{
+    width: 9.375vw;
+    height: 23.73247033441208vh;
+    outline:  0.2vh solid rgb(214, 214, 214);
+    position: absolute;
+    top: 52%;
+    left: 81.8%;
+    transform: translate(-50%, -50%);
+    border-radius: 1vh;
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(45deg, #73737359, #d9d9d93b);
+}
+
+.bigbos2{
+    display: flex;
+    align-items: center;
+    gap: 0.8vh;
+    justify-content: center;
+    margin-top: 2.5vh;
+    margin-left: -3vh;
+}
+
+.img-deposit{
+    outline:  0.2vh solid rgb(214, 214, 214);
+    padding: 0.5vh 0.1vh 0.1vh 0.1vh;
+    border-radius: 0.5vh;
+}
+
+.titlu-deposit{
+    color:  rgb(202, 202, 202);
+    font-size: 1vh;
+}
+
+.input2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.267);
+    height: 3.559870550161812vh;
+    width: 6.40625vw;
+    border-radius: 1vh;
+    color: white;
+    font-size: 1.2vh;
+}
+
+.input2:focus{
+    outline: 0.2vh solid white;
+}
+
+.btn-deposit{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    text-align: center;
+    background: rgb(0, 183, 255);
+    height: 3.559870550161812vh;
+    width: 6.40625vw;
+    border-radius: 1vh;
+    color: white;
+    font-size: 1.5vh;
+    box-shadow: 0 1vh 1vh rgba(0, 0, 0, 0.267);
+    cursor:  pointer;
+    transition-duration: 300ms;
+    font-weight: bold;
+}
+
+.btn-deposit:hover{
+    width: 7vw; 
+    transition-duration: 300ms;
+}
+
+.line2{
+    width: 2.8645833333333335vw;
+    height: 0.15vh;
+    background: white;
+    box-shadow: 0 -0.1vh 0.5vh white;
+    position: absolute;
+    top: -1.2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* ========================================================================================== */
+
+
+.transfer-container{
+    width: 19.322916666666668vw;
+    height: 8.19848975188781vh;
+    outline:  0.2vh solid rgb(214, 214, 214);
+    position: absolute;
+    top: 85.5%;
+    left: 70.2%;
+    transform: translate(-50%, -50%);
+    border-radius: 1vh;
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(45deg, #73737359, #d9d9d93b);
+}
+
+
+.bigbos3{
+    display: flex;
+    align-items: center;
+    gap: 0.8vh;
+    margin-top: 2vh;
+    margin-left: 1.5vh;
+}
+
+.img-transfer{
+    outline:  0.2vh solid rgb(214, 214, 214);
+    padding: 0.5vh 0.1vh 0.1vh 0.1vh;
+    border-radius: 0.5vh;
+}
+
+.titlu-transfer{
+    color:  rgb(202, 202, 202);
+    font-size: 1vh;
+}
+
+.input3{
+    position: absolute;
+    top: 50%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+    border: none;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.267);
+    height: 2.912621359223301vh;
+    width: 4.375vw;
+    border-radius: 0.5vh;
+    color: white;
+    font-size: 1.2vh;
+}
+
+.input3:focus{
+    outline: 0.2vh solid white;
+}
+
+.input4{
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    border: none;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.267);
+    height: 2.912621359223301vh;
+    width: 4.375vw;
+    border-radius: 0.5vh;
+    color: white;
+    font-size: 1.2vh;
+}
+
+.input4:focus{
+    outline: 0.2vh solid white;
+}
+
+.btn-transfer{
+    position: absolute;
+    top: 50%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+    border: none;
+    text-align: center;
+    background: rgb(0, 183, 255);
+    width: 1.6145833333333333vw;
+    height: 2.912621359223301vh;
+    border-radius: 0.5vh;
+    color: white;
+    font-size: 1.5vh;
+    box-shadow: 0 1vh 1vh rgba(0, 0, 0, 0.267);
+    cursor:  pointer;
+    transition-duration: 300ms;
+    font-weight: bold;
+    text-shadow: 0 0 1vh white;
+}
+
+.btn-transfer:hover{
+    height: 3.912621359223301vh;
+    transition-duration: 300ms;
+}
+
+.line3{
+    width: 5.8645833333333335vw;
+    height: 0.15vh;
+    background: white;
+    box-shadow: 0 -0.1vh 0.5vh white;
+    position: absolute;
+    top: -1.2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@media screen and (min-height: 1080px) {
+    .card{
+        margin-top: 30.1vh;
+        margin-left: 4.3vh;
+    }
+
+    .name{
+        margin-top: -6vh;
+        margin-left: 5.7vh;
+    }
+
+    .esc{
+        font-size: 1.2vh;
+    }
+    .esc-container{
+         position: absolute;
+         top: 15%;
+         left: 78.5%;
+         transform: translate(-50%, -50%);
+    }
+
+    .titlu-balance{
+        font-size: 1.4vh;
+    }
+
+    .welcome{
+        margin-left: -3.5vh;
+    }
+
+    .pig{
+        margin-left: -0.8vh;
+    }
+
+    .logo{
+        left: 16.5%;
+    }
+
+    .bigbos1{
+        margin-left: 0.5vh;
+    }
+
+    .bigbos2{
+        margin-left: -1.1vh;
+    }
+
+    .input4{
+        left: 50%;
+        width: 4VW;
+    }
+
+    .input3{
+        width: 4vw;
+    }
+
+    .withdraw-container{
+        top: 50%;
+    }
+
+    .deposit-container{
+        top: 50%;
+    }
+
+    .cont-container{
+        top: 33.5%;
+    }
+
+    .balance-container{
+        top:  50%;
+    }
+}

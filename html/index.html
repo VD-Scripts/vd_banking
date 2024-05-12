@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Banking by Dariusmen</title>
+</head>
+<body>
+    <div class="main-container" style="display: none;">
+
+        <div class="logo">
+            <img src="imgs/bank_1.png" class="img-banca">
+            <div class="titlu">BANKING <br><span style="color: white; font-weight: bold; font-size: 2vh;">FLEECA</span></div>
+        </div>
+
+        <div class="esc-container">
+            <div class="esc">ESC</div>
+            <div class="p-esc">APASA TASTA ESC PENTRU A INCHIDE MENIUL BANCAR</div>
+        </div>
+
+        <div class="cont-container">
+            <img src="imgs/account.png" class="img-profil">
+            <div class="welcome">BUNA ZIUA, STIMATE <br><span class="namestimate" style="color: white; font-size: 1.5vh; font-weight: 400;">VD-SCRIPTS</span></div>
+        </div>
+
+        <div class="balance-container">
+            <div class="bbbalance">
+                <div class="titlu-balance">MY ACCOUNT</div>
+                <div class="balance-account">CURRENT BALANCE <br><span style="color: rgb(0, 195, 255); font-size: 1.2vh; font-family: goldman;">$</span> <span class="moneycash" style="font-size: 1.2vh; color:  white; font-family: goldman;">500.000</span></div>
+            </div>
+            <img src="imgs/piggy-bank_1.png" class="pig">
+        </div>
+
+        <img src="imgs/card.png" class="card">
+        <div class="name">VD-SCRIPTS</div>
+
+        <div class="withdraw-container">
+            <div class="line1"></div>
+            <div class="bigbos1">
+            <img src="https://media.discordapp.net/attachments/922914636754468944/1238828227334770760/withdraw_1.png?ex=6640b431&is=663f62b1&hm=984bc254e6f817b933d18476985c642ce475af872b3660aded30b6bc11ff1e33&=&format=webp&quality=lossless" class="img-withdraw">
+            <div class="titlu-withdraw">MONEY <br><span style="color: white; font-weight: bold; font-size: 1.2vh; ">WITHDRAW</span></div>
+            <input type="text" name="withdrawText" id="withdrawText" placeholder="SUMA" class="input1">
+            <button class="btn-withdraw" onclick="withdraw()">WITHDRAW</button>
+        </div>
+    </div>
+
+        <div class="deposit-container">
+            <div class="line2"></div>
+             <div class="bigbos2">
+            <img src="https://media.discordapp.net/attachments/922914636754468944/1238837501175529525/deposit_1.png?ex=6640bcd4&is=663f6b54&hm=69fc38c7e3d04d50ca0569033eb72d152a34abd8468403ef6657092174a4e908&=&format=webp&quality=lossless" class="img-deposit">
+            <div class="titlu-deposit">MONEY <br><span style="color: white; font-weight: bold; font-size: 1.2vh;">deposit</span>
+             </div>
+            <input type="text" name="depositText" id="depositText" placeholder="SUMA" class="input2">
+            <button class="btn-deposit" onclick="deposit()">deposit</button>
+        </div>
+    </div>
+
+        <div class="transfer-container">
+            <div class="line3"></div>
+             <div class="bigbos3">
+            <img src="https://media.discordapp.net/attachments/922914636754468944/1238876422139940874/transfer_1.png?ex=6640e114&is=663f8f94&hm=a47650b098b8c483dd3720b59452a75c0eb7d4f042614c7826ca243824aeb791&=&format=webp&quality=lossless" class="img-transfer">
+            <div class="titlu-transfer">MONEY <br><span style="color: white; font-weight: bold; font-size: 1.2vh;">transfer</span>
+             </div>
+            <input type="text" name="transferNumber" id="transferNumber" placeholder="SUMA" class="input3">
+            <input type="text" name="transferId" id="transferId" placeholder="ID" class="input4">
+            <button class="btn-transfer"><i class="fa-solid fa-check"></i></button>
+        </div>
+        </div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
